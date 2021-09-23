@@ -1,0 +1,63 @@
+
+img {
+  margin: 30px auto 20px 50px;
+  height: 400px;
+  width: 80%;
+}
+
+.whole-page {
+  margin: 150px auto;
+  max-width: 80%;
+}
+
+.container {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "boxOne boxTwo";
+}
+
+.b1 {
+  grid-area: boxOne;
+  border-style: solid;
+  border-color: black;
+}
+
+.b2 {
+  grid-area: boxTwo;
+  border-style: solid;
+  border-color: black;
+}
+
+.productOne {
+  background-color: lightblue;
+  height: 400px;
+  width: 80%;
+  margin: 30px auto 52px auto;
+  padding: 0px;
+}
+
+.productTwo {
+  background-color: lightblue;
+  height: 400px;
+  width: 80%;
+  margin: 20px auto 50px auto;
+  padding: 0px;
+}
+
+.productOne-heading {
+  padding: 20px 20px 0 20px;
+}
+
+.productTwo-heading {
+  padding: 20px 20px 0 20px;
+}
+
+.productOne-text {
+  padding: 0px 20px;
+}
+
+.productTwo-text {
+  padding: 0px 20px;
+}
